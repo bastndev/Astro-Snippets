@@ -150,9 +150,9 @@
 
 This extension includes several commands to help you manage your snippets efficiently. You can access these commands by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS).
 
-- 🛠️ **Lynxjs: `Manage Snippets:`** Edit • Delete • Refresh • (Reset Snippet) & Create new snippet.
-- 🔄 **Lynxjs: `Refresh Snippets:`** Reloads your snippets to reflect recent changes — yaa!!"
-- ✍️ **Lynxjs: `Create New Snippet:`** Starts the process to create a new custom snippet.
+- 🛠️ **Astro: `Manage Snippets:`** Edit • Delete • Refresh • (Reset Snippet) & Create new snippet.
+- 🔄 **Astro: `Refresh Snippets:`** Reloads your snippets to reflect recent changes — yaa!!"
+- ✍️ **Astro: `Create New Snippet:`** Starts the process to create a new custom snippet.
 
 </br>
 
@@ -172,7 +172,7 @@ ext install bastndev.astro-snippets
 
 ## Contributors
 
-If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynxjs-Snippets.tsx/blob/main/CONTRIBUTING.md) .
+If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Astro-Snippets.tsx/blob/main/CONTRIBUTING.md) .
 
 | [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
 | :-------------------------------------------------------------------------------: |
