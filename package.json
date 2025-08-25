@@ -1,0 +1,125 @@
+{
+  "name": "astro-snippets",
+  "displayName": "Astro Snippets", 
+  "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
+  "version": "0.0.1",
+  "publisher": "bastndev",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Snippets"],
+  "keywords": [
+    "Astro",
+    "snippets", 
+    "productivity",
+    "astro snippet",
+    "typescript",
+    "javascript", 
+    "HTML5",
+    "react",
+    "preact",
+    "svelte",
+    "vue", 
+    "alpine-js snippet",
+    "solid-js snippet",
+    "vscode snippet",
+    "boilerplate"
+  ],
+  "icon": "assets/icon.jpg",
+  "galleryBanner": {
+    "color": "#0a0a0a",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/bastndev/Astro-Snippets#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bastndev/Astro-Snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/bastndev/Astro-Snippets/issues"
+  },
+  "author": {
+    "name": "Gohit Bastian", 
+    "email": "gobasdev@gmail.com",
+    "url": "https://www.bastndev.com"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/bastndev"
+  },
+  "activationEvents": [
+    "onLanguage:astro",
+    "onLanguage:vue", 
+    "onLanguage:svelte",
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact", 
+    "onLanguage:javascriptreact"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "astro-snippets.manage",
+        "title": "Manage Snippets 🛠️",
+        "category": "Astrojs" 
+      },
+      {
+        "command": "astro-snippets.createSnippet",
+        "title": "Create New Snippet",
+        "category": "Astrojs"
+      },
+      {
+        "command": "astro-snippets.refreshSnippets", 
+        "title": "Refresh Snippets",
+        "category": "Astrojs"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "astro",
+        "path": "./snippets/astro.code-snippets"
+      },
+      {
+        "language": "vue", 
+        "path": "./snippets/vue.code-snippets"
+      },
+      {
+        "language": "svelte",
+        "path": "./snippets/svelte.code-snippets" 
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "typescriptreact", 
+        "path": "./snippets/preact.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/preact.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/solidjs.code-snippets" 
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/solidjs.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/alpinejs.code-snippets"
+      },
+      {
+        "language": "html", 
+        "path": "./snippets/alpinejs.code-snippets"
+      }
+    ]
+  }
+}
