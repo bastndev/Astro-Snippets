@@ -1,9 +1,9 @@
 ![Use Extension](https://raw.githubusercontent.com/bastndev/Astro-Snippets/refs/heads/main/assets/images/banner.png)
 
 <p align="center">
-    <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=VERSION" alt="Version">&nbsp;
-    <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=Rating" alt="Rating">&nbsp;
-    <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=Downloads" alt="Downloads">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/version-short/bastndev.astro-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=VERSION" alt="Version">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.astro-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=Rating" alt="Rating">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.astro-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=Downloads" alt="Downloads">&nbsp;
     <a href="https://github.com/bastndev/Lynxjs-Snippets.tsx"><img src="https://raw.githubusercontent.com/bastndev/Astro-Snippets/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
@@ -167,7 +167,7 @@ Launch _Quick Open_
 Paste the following command and press `Enter`:
 
 ```
-ext install bastndev.lynx-js-snippets
+ext install bastndev.astro-snippets
 ```
 
 ## Contributors
