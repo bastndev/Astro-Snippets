@@ -1,10 +1,10 @@
 ![Use Extension](https://raw.githubusercontent.com/bastndev/Astro-Snippets/refs/heads/main/assets/images/banner.png)
 
 <p align="center">
-    <img src="https://vsmarketplacebadges.dev/version-short/bastndev.astro-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=VERSION" alt="Version">&nbsp;
-    <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.astro-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=Rating" alt="Rating">&nbsp;
-    <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.astro-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=Downloads" alt="Downloads">&nbsp;
-    <a href="https://github.com/bastndev/Lynxjs-Snippets.tsx"><img src="https://raw.githubusercontent.com/bastndev/Astro-Snippets/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
+    <img src="https://vsmarketplacebadges.dev/version-short/bastndev.astro-js-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=VERSION" alt="Version">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.astro-js-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=Rating" alt="Rating">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.astro-js-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=Downloads" alt="Downloads">&nbsp;
+    <a href="https://github.com/bastndev/Astro-Snippets.tsx"><img src="https://raw.githubusercontent.com/bastndev/Astro-Snippets/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
 </br>
@@ -167,12 +167,12 @@ Launch _Quick Open_
 Paste the following command and press `Enter`:
 
 ```
-ext install bastndev.astro-snippets
+ext install bastndev.astro-js-snippets
 ```
 
 ## Contributors
 
-If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Astro-Snippets.tsx/blob/main/CONTRIBUTING.md) .
+If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Astro-Snippets/blob/main/CONTRIBUTING.md) .
 
 | [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
 | :-------------------------------------------------------------------------------: |
@@ -192,4 +192,4 @@ If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/ba
 | [![Bracket Lynx](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/bracket-lynx/0.2.0/1748219628473/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.bracket-lynx) | [Bracket Lynx](https://github.com/bastndev/Bracket-Lynx) | Enhances the development experience by displaying a label next to each closing parenthesis, indicating the name of the corresponding block or function, along with the start and end line numbers. |
 | [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardizes keyboard shortcuts across all code editors, allowing you to use key combinations to access any functionality. It improves workflow and development experience.                        |
 
-**Ready! 🚀 Your snippets are configured. If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Astro-Snippets.tsx/issues).**
+**Ready! 🚀 Your snippets are configured. If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Astro-Snippets/issues).**
