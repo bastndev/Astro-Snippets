@@ -1,65 +1,195 @@
-# snippet README
+![Use Extension](https://raw.githubusercontent.com/bastndev/Astro-Snippets/refs/heads/main/assets/images/banner.png)
 
-This is the README for your extension "snippet". After writing up a brief description, we recommend including the following sections.
+<p align="center">
+    <img src="https://vsmarketplacebadges.dev/version-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=VERSION" alt="Version">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=Rating" alt="Rating">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.lynx-js-snippets.jpg?style=for-the-badge&colorA=0078ca&colorB=EEEEEE&color=000000&label=Downloads" alt="Downloads">&nbsp;
+    <a href="https://github.com/bastndev/Lynxjs-Snippets.tsx"><img src="https://raw.githubusercontent.com/bastndev/Astro-Snippets/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
+</p>
 
-## Features
+</br>
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## 🚀 Basic Snippets
 
-For example if there is an image subfolder under your extension project workspace:
+| 🧩 Snippet                   | 🆎 Prefix            | ⚡ Quick Shortcut |
+| ---------------------------- | -------------------- | ----------------- |
+| Astro Base Component         | `a-base`             | `ab`              |
+| Astro Component with Client  | `a-cbase`            | `abc`             |
+| Typed Astro Component        | `a-component`        | `acomp`           |
+| Component with Client Script | `a-component-client` | `accl`            |
+| Fragment Set HTML            | `a-frag-html`        | `afh`             |
+| Fragment Named Slot          | `a-frag-slot`        | `afs`             |
 
-\!\[feature X\]\(images/feature-x.png\)
+## 🎯 Layouts and Pages
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+| 🧩 Snippet        | 🆎 Prefix        | ⚡ Quick Shortcut |
+| ----------------- | ---------------- | ----------------- |
+| Full HTML Layout  | `a-layout-full`  | `alf`             |
+| Layout Component  | `a-layout`       | `al`              |
+| Pre-rendered Page | `a-prerender`    | `apr`             |
+| Dynamic Page      | `a-dynamic-page` | `adp`             |
+| Static Paths      | `a-static-paths` | `asp`             |
 
-## Requirements
+## 📝 Content Collections
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+| 🧩 Snippet              | 🆎 Prefix              | ⚡ Quick Shortcut |
+| ----------------------- | ---------------------- | ----------------- |
+| Content Collection Page | `a-content-collection` | `acc`             |
+| Collection Schema       | `a-collection-schema`  | `acs`             |
 
-## Extension Settings
+## 🔀 Expressions and Logic
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+| 🧩 Snippet            | 🆎 Prefix       | ⚡ Quick Shortcut |
+| --------------------- | --------------- | ----------------- |
+| Map Expression        | `a-map`         | `amp`             |
+| Map with Block        | `a-map-block`   | `amb`             |
+| Conditional Rendering | `a-conditional` | `acond`           |
+| Conditional Block     | `a-if`          | `aif`             |
+| IIFE Expression       | `a-iife`        | `aiife`           |
+| Generator Expression  | `a-iige`        | `aig`             |
 
-For example:
+## 🎪 Slots and Advanced Components
 
-This extension contributes the following settings:
+| 🧩 Snippet | 🆎 Prefix | ⚡ Quick Shortcut |
+| ---------- | --------- | ----------------- |
+| Named Slot | `a-slot`  | `asl`             |
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## 🌐 API and Routes
 
-## Known Issues
+| 🧩 Snippet     | 🆎 Prefix      | ⚡ Quick Shortcut |
+| -------------- | -------------- | ----------------- |
+| API Route GET  | `a-api`        | `aapi`            |
+| API Route POST | `a-api-post`   | `apost`           |
+| Middleware     | `a-middleware` | `amw`             |
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## 🖼️ Images and Assets
 
-## Release Notes
+| 🧩 Snippet        | 🆎 Prefix   | ⚡ Quick Shortcut |
+| ----------------- | ----------- | ----------------- |
+| Image Component   | `a-image`   | `aimg`            |
+| Picture Component | `a-picture` | `apic`            |
 
-Users appreciate release notes as you update your extension.
+## ✨ Transitions and Effects
 
-### 1.0.0
+| 🧩 Snippet       | 🆎 Prefix           | ⚡ Quick Shortcut |
+| ---------------- | ------------------- | ----------------- |
+| View Transitions | `a-transitions`     | `atrans`          |
+| Transition Name  | `a-transition-name` | `atn`             |
 
-Initial release of ...
+## 🎨 SEO and Head
 
-### 1.0.1
+| 🧩 Snippet     | 🆎 Prefix | ⚡ Quick Shortcut |
+| -------------- | --------- | ----------------- |
+| Head Component | `a-head`  | `ahead`           |
 
-Fixed issue #.
+</br>
 
-### 1.1.0
+### 🚀 How to Use
 
-Added features X, Y, and Z.
+1. Open a `.tsx` or `.jsx` file.
+2. Type any **Quick Shortcut** (e.g., `lv` for View).
+3. Press `Tab` or `Enter` to expand the snippet.
+
+<details>
+<summary>📖 Usage Guide</summary>
+
+### 🎯 **Basic Components**
+
+- **`a-base`**: Basic scaffold for any Astro component
+- **`a-component`**: Component with TypeScript and prop interfaces
+- **`a-component-client`**: Component with client-side script
+
+### 🏗️ **Layouts and Structures**
+
+- **`a-layout-full`**: Full layout with HTML5, meta tags, and slots
+- **`a-prerender`**: Page with static prerendering
+- **`a-static-paths`**: Static route generation with `getStaticPaths`
+
+### 🗂️ **Content Collections**
+
+- **`a-content-collection`**: Dynamic page for content collections
+- **`a-collection-schema`**: Schema definition with Zod
+
+### 🔄 **Dynamic Rendering**
+
+- **`a-map`**: List rendering with `.map()`
+- **`a-conditional`**: Conditional rendering with ternary operator
+- **`a-if`**: Conditional rendering with blocks
+
+### 🌐 **API and Backend**
+
+- **`a-api`**: Basic GET endpoint
+- **`a-api-post`**: POST endpoint for forms
+- **`a-middleware`**: Middleware function to intercept requests
+
+### 🎨 **User Experience**
+
+- **`a-transitions`**: Smooth transitions between pages
+- **`a-image`**: Optimized images with the native component
+- **`a-head`**: Optimized meta tags for SEO
 
 ---
 
-## Working with Markdown
+## 🚀 **Quick Start**
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+1. **Basic Component**: Type `ab` + Tab to create a base component
+2. **Full Layout**: Type `alf` + Tab for a complete HTML layout
+3. **API Endpoint**: Type `aapi` + Tab to create an API route
+4. **Content Collection**: Type `acc` + Tab for a content page
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## 💡 **Pro Tips**
 
-## For more information
+- **Always use TypeScript**: Snippets automatically include prop interfaces
+- **Leverage SSG**: Use `a-prerender` for static pages
+- **Optimize Images**: Use `a-image` instead of simple `<img>` tags
+- **SEO First**: Include `a-head` in your layouts
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+</details>
 
-**Enjoy!**
+## 🧩 Extension Commands [ + ]
+
+This extension includes several commands to help you manage your snippets efficiently. You can access these commands by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS).
+
+- 🛠️ **Lynxjs: `Manage Snippets:`** Edit • Delete • Refresh • (Reset Snippet) & Create new snippet.
+- 🔄 **Lynxjs: `Refresh Snippets:`** Reloads your snippets to reflect recent changes — yaa!!"
+- ✍️ **Lynxjs: `Create New Snippet:`** Starts the process to create a new custom snippet.
+
+</br>
+
+## Installation
+
+Launch _Quick Open_
+
+- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux `Ctrl+P`
+- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS `⌘P`
+- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows `Ctrl+P`
+
+Paste the following command and press `Enter`:
+
+```
+ext install bastndev.lynx-js-snippets
+```
+
+## Contributors
+
+If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynxjs-Snippets.tsx/blob/main/CONTRIBUTING.md) .
+
+| [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
+| :-------------------------------------------------------------------------------: |
+|                 **[Gohit Bastian](https://github.com/bastndev)**                  |
+
+## About Me
+
+- [🐦 X](https://twitter.com/bastndev) - For questions and discussions.
+- 🔴 [Youtube](https://www.youtube.com/@bastndev?sub_confirmation=1) - Code, Software and development insights.
+- 💼 [Linkedin](https://www.linkedin.com/in/bastndev) - Professional networking and career updates.
+
+</br>
+
+| Icon                                                                                                                                                                                                                                     | Name                                                     | Description                                                                                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![LynxJS Pack](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynxjs-pack/0.1.8/1745206864969/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynxjs-pack)    | [LynxJS Pack](https://github.com/bastndev/LynxJs-Packge) | An all-in-one toolkit for web and mobile development with LynxJS: includes keyboard shortcuts, error alerts, text correction, snippets, and more. Tools designed to streamline your workflow.      |
+| [![Lynx Theme Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-theme/0.1.2/1744898058774/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme)   | [Lynx Theme Pro](https://github.com/bastndev/Lynx-Theme) | A professional extension with six available themes: Dark, Light, Night, Ghibli, Coffee, and Kiro—with integrated icons. Each theme is optimized to offer a more pleasant visual experience.        |
+| [![Bracket Lynx](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/bracket-lynx/0.2.0/1748219628473/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.bracket-lynx) | [Bracket Lynx](https://github.com/bastndev/Bracket-Lynx) | Enhances the development experience by displaying a label next to each closing parenthesis, indicating the name of the corresponding block or function, along with the start and end line numbers. |
+
+**Ready! 🚀 Your snippets are configured. If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynxjs-Snippets.tsx/issues).**
