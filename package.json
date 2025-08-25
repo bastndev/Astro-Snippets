@@ -4,6 +4,7 @@
   "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
   "version": "0.0.1",
   "publisher": "bastndev",
+  "preview": true,
   "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
