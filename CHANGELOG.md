@@ -20,6 +20,16 @@ Discover more extensions at [bastndev.com/extensions](https://bastndev.com/exten
 
 Following VS Code best practices, Astro Snippets uses semantic versioning for all releases.
 
+## [0.0.1] - 2025-09-01
+
+### Initial Release
+- Initial release of Snippets Astro
+- Core snippet collection for Astro development
+- Basic import and component snippets
+- Foundation for future snippet expansions
+
+---
+
 ## [0.0.1] - 2025-08-24
 
 ### Initial Release
