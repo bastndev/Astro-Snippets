@@ -16,5 +16,120 @@
       "</Layout>"
     ],
     "description": "Import Layout"
+  },
+  // Astro Page
+  "Astro Page": {
+    "prefix": "a-page",
+    "body": [
+      "---",
+      "---",
+      "",
+      "<html lang=\"en\">",
+      "\t<head>",
+      "\t\t<meta charset=\"utf-8\" />",
+      "\t\t<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />",
+      "\t\t<meta name=\"viewport\" content=\"width=device-width\" />",
+      "\t\t<meta name=\"generator\" content=\"{Astro.generator}\" />",
+      "\t\t<title>Astro</title>",
+      "\t</head>",
+      "\t<body>",
+      "\t\t<h1>Astro</h1>",
+      "\t\t$0",
+      "\t</body>",
+      "</html>"
+    ],
+    "description": "Basic Astro Page Structure"
+  },
+  // Astro Component
+  "Astro Component": {
+    "prefix": "a-component",
+    "body": [
+      "---",
+      "interface Props {",
+      "\t$1",
+      "}",
+      "",
+      "const { $2 } = Astro.props;",
+      "---",
+      "",
+      "<div>",
+      "\t$0",
+      "</div>"
+    ],
+    "description": "Basic Astro Component"
+  },
+  // Get Static Paths
+  "Get Static Paths": {
+    "prefix": "a-gsp",
+    "body": [
+      "export async function getStaticPaths() {",
+      "\treturn [",
+      "\t\t{ params: { $1 } }",
+      "\t];",
+      "}"
+    ],
+    "description": "Astro getStaticPaths"
+  },
+  // Astro Glob
+  "Astro Glob": {
+    "prefix": "a-glob",
+    "body": [
+      "const ${1:posts} = await Astro.glob('./${2:*.md}');"
+    ],
+    "description": "Astro.glob"
+  },
+  // Astro Slot
+  "Astro Slot": {
+    "prefix": "a-slot",
+    "body": [
+      "<slot />"
+    ],
+    "description": "Astro Slot"
+  },
+  // Astro Named Slot
+  "Astro Named Slot": {
+    "prefix": "a-slot-named",
+    "body": [
+      "<slot name=\"$1\" />"
+    ],
+    "description": "Astro Named Slot"
+  },
+  // Astro Style
+  "Astro Style": {
+    "prefix": "a-style",
+    "body": [
+      "<style>",
+      "\t$0",
+      "</style>"
+    ],
+    "description": "Astro Style Tag"
+  },
+  // Astro Script
+  "Astro Script": {
+    "prefix": "a-script",
+    "body": [
+      "<script>",
+      "\t$0",
+      "</script>"
+    ],
+    "description": "Astro Script Tag"
+  },
+  // Astro Image
+  "Astro Image": {
+    "prefix": "a-img",
+    "body": [
+      "<Image src={$1} alt=\"$2\" width={${3:120}} height={${4:120}} />"
+    ],
+    "description": "Astro Image Component"
+  },
+  // Astro line
+  "Astro Code Fence": {
+    "prefix": "a-line",
+    "body": [
+      "---",
+      "$0",
+      "---"
+    ],
+    "description": "Astro Code Fence"
   }
 }
