@@ -83,46 +83,6 @@
         "path": "./snippets/astro.code-snippets"
       },
       {
-        "language": "vue", 
-        "path": "./snippets/vue.code-snippets"
-      },
-      {
-        "language": "svelte",
-        "path": "./snippets/svelte.code-snippets" 
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react.code-snippets"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/react.code-snippets"
-      },
-      {
-        "language": "typescriptreact", 
-        "path": "./snippets/preact.code-snippets"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/preact.code-snippets"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/solidjs.code-snippets" 
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/solidjs.code-snippets"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/alpinejs.code-snippets"
-      },
-      {
-        "language": "html", 
-        "path": "./snippets/alpinejs.code-snippets"
-      },
-      {
         "language": "css",
         "path": "./snippets/css.code-snippets"
       }
