@@ -1,4 +1,4 @@
-![Use Extension](https://raw.githubusercontent.com/bastndev/Astro-Snippets/refs/heads/main/assets/images/banner.png)
+![Use Extension](https://raw.githubusercontent.com/bastndev/Astro-Snippets/refs/heads/main/assets/images/banner.jpg)
 
 <p align="center">
     <img src="https://vsmarketplacebadges.dev/version-short/bastndev.astro-js-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=VERSION" alt="Version">&nbsp;

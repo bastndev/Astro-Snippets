@@ -49,14 +49,7 @@
     "url": "https://github.com/sponsors/bastndev"
   },
   "activationEvents": [
-    "onLanguage:astro",
-    "onLanguage:css",
-    "onLanguage:vue", 
-    "onLanguage:svelte",
-    "onLanguage:javascript",
-    "onLanguage:typescript",
-    "onLanguage:typescriptreact", 
-    "onLanguage:javascriptreact"
+    "*"
   ],
   "main": "./src/extension.js",
   "contributes": {

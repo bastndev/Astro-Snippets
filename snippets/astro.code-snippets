@@ -1,7 +1,60 @@
 {
+  "Layout": {
+    "prefix": "a-layout",
+    "body": [
+      "---",
+      "import '@/styles/global.css'",
+      "import SEO from '@/components/SEO.astro'",
+      "",
+      "interface Props {",
+      "  title?: string",
+      "  description?: string",
+      "  image?: string",
+      "  type?: 'website' | 'article'",
+      "}",
+      "",
+      "const { title, description, image, type } = Astro.props",
+      "---",
+      "",
+      "<!doctype html>",
+      "<html lang=\"en\">",
+      "  <head>",
+      "    <SEO {title} {description} {image} {type} />",
+      "    <script is:inline>",
+      "      ;(function () {",
+      "        const t = localStorage.getItem('theme')",
+      "        const d = t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)",
+      "        if (d) document.documentElement.classList.add('dark')",
+      "      })()",
+      "    </script>",
+      "  </head>",
+      "  <body>",
+      "    <slot />",
+      "  </body>",
+      "</html>",
+      ""
+    ],
+    "description": "Layout"
+  },
+
   // Import Layout
   "Import Layout": {
-    "prefix": "a-layout",
+    "prefix": "a-import-layout",
+    "body": [
+      "---",
+      "import Layout from '@/layouts/Layout.astro'",
+      "---",
+      "",
+      "<Layout>",
+      "  $0",
+      "</Layout>"
+    ],
+    "description": "Import Layout Component"
+  },
+
+  // Import Layout - Tailwind
+  "Import Layout Tailwind": {
+    "prefix": "a-import-layout-tailwind",
     "body": [
       "---",
       "import Layout from '@/layouts/Layout.astro'",
@@ -17,29 +70,7 @@
     ],
     "description": "Import Layout"
   },
-  // Astro Page
-  "Astro Page": {
-    "prefix": "a-page",
-    "body": [
-      "---",
-      "---",
-      "",
-      "<html lang=\"en\">",
-      "\t<head>",
-      "\t\t<meta charset=\"utf-8\" />",
-      "\t\t<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />",
-      "\t\t<meta name=\"viewport\" content=\"width=device-width\" />",
-      "\t\t<meta name=\"generator\" content=\"{Astro.generator}\" />",
-      "\t\t<title>Astro</title>",
-      "\t</head>",
-      "\t<body>",
-      "\t\t<h1>Astro</h1>",
-      "\t\t$0",
-      "\t</body>",
-      "</html>"
-    ],
-    "description": "Basic Astro Page Structure"
-  },
+
   // Astro Component
   "Astro Component": {
     "prefix": "a-component",
@@ -58,6 +89,7 @@
     ],
     "description": "Basic Astro Component"
   },
+
   // Get Static Paths
   "Get Static Paths": {
     "prefix": "a-gsp",
@@ -70,66 +102,180 @@
     ],
     "description": "Astro getStaticPaths"
   },
-  // Astro Glob
+
+  // Astro Glob (Legacy - consider using Content Collections)
   "Astro Glob": {
     "prefix": "a-glob",
-    "body": [
-      "const ${1:posts} = await Astro.glob('./${2:*.md}');"
-    ],
-    "description": "Astro.glob"
+    "body": ["const ${1:posts} = await Astro.glob('./${2:*.md}');"],
+    "description": "Astro.glob (Legacy - prefer Content Collections)"
   },
-  // Astro Slot
-  "Astro Slot": {
-    "prefix": "a-slot",
+
+  // Get Collection
+  "Get Collection": {
+    "prefix": "a-collection",
     "body": [
-      "<slot />"
+      "import { getCollection } from 'astro:content';",
+      "",
+      "const ${1:posts} = await getCollection('${2:blog}');"
     ],
-    "description": "Astro Slot"
+    "description": "Get Content Collection (Recommended)"
   },
+
   // Astro Named Slot
   "Astro Named Slot": {
     "prefix": "a-slot-named",
-    "body": [
-      "<slot name=\"$1\" />"
-    ],
+    "body": ["<slot name=\"$1\" />"],
     "description": "Astro Named Slot"
   },
+
   // Astro Style
   "Astro Style": {
     "prefix": "a-style",
-    "body": [
-      "<style>",
-      "\t$0",
-      "</style>"
-    ],
+    "body": ["<style>", "\t$0", "</style>"],
     "description": "Astro Style Tag"
   },
   // Astro Script
   "Astro Script": {
     "prefix": "a-script",
-    "body": [
-      "<script>",
-      "\t$0",
-      "</script>"
-    ],
+    "body": ["<script>", "\t$0", "</script>"],
     "description": "Astro Script Tag"
+  },
+
+  // astor style & script
+  "Style": {
+    "prefix": "a-style-script",
+    "body": [
+      "<!-- --- --- -- --- -- -- MARK:Styles -->",
+      "<style>",
+      "    $0",
+      "</style>",
+      "",
+      "",
+      "<!-- --- --- -- --- -- -- MARK:Script -->",
+      "<script>",
+      "    ",
+      "</script>",
+      ""
+    ],
+    "description": "Style"
+  },
+
+  "Main": {
+    "prefix": "a-main",
+    "body": [
+      "---",
+      "import Layout from '@/layouts/Layout.astro'",
+      "---",
+      "",
+      "<Layout>",
+      "  <div class=\"custom-cursor flex min-h-screen w-full items-center justify-center\">",
+      "    <main class=\"relative w-full max-w-2xl px-4 py-2 sm:px-6\">",
+      "      $0",
+      "    </main>",
+      "  </div>",
+      "</Layout>",
+      "",
+      "<!-- --- --- -- --- -- -- MARK:Styles -->",
+      "<style>",
+      "    ",
+      "</style>",
+      "",
+      "<!-- --- --- -- --- -- -- MARK:Script -->",
+      "<script>",
+      "    ",
+      "</script>",
+      ""
+    ],
+    "description": "Main"
   },
   // Astro Image
   "Astro Image": {
     "prefix": "a-img",
-    "body": [
-      "<Image src={$1} alt=\"$2\" width={${3:120}} height={${4:120}} />"
-    ],
-    "description": "Astro Image Component"
+    "body": ["import { Image } from 'astro:assets';"],
+    "description": "Import Astro Image Component"
   },
-  // Astro line
-  "Astro Code Fence": {
-    "prefix": "a-line",
+
+  // Astro Image Tag
+  "Astro Image Tag": {
+    "prefix": "a-image",
+    "body": [
+      "<Image src={$1} alt=\"$2\" width={${3:800}} height={${4:600}} />"
+    ],
+    "description": "Astro Image Tag"
+  },
+
+  // Fragment Slot Name
+  "Fragment Slot Name": {
+    "prefix": "a-fragment-slot",
+    "body": ["<Fragment slot=\"${1:name}\">", "\t$2", "</Fragment>"],
+    "description": "Fragment with slot name"
+  },
+
+  // Page with getStaticPaths
+  "Page with getStaticPaths": {
+    "prefix": "a-page-gsp",
     "body": [
       "---",
-      "$0",
-      "---"
+      "import type { InferGetStaticPropsType } from 'astro';",
+      "",
+      "export async function getStaticPaths() {",
+      "\treturn [",
+      "\t\t{",
+      "\t\t\tparams: { $1 },",
+      "\t\t\tprops: { $2 }",
+      "\t\t}",
+      "\t];",
+      "}",
+      "",
+      "type Props = InferGetStaticPropsType<typeof getStaticPaths>;",
+      "const { $3 } = Astro.props;",
+      "---",
+      "",
+      "<${4:div}>",
+      "\t$0",
+      "</${4:div}>"
     ],
-    "description": "Astro Code Fence"
+    "description": "Page with getStaticPaths"
+  },
+
+  // Content Collections Page
+  "Content Collections Page": {
+    "prefix": "a-page-collection",
+    "body": [
+      "---",
+      "import { getCollection } from 'astro:content';",
+      "import type { InferGetStaticPropsType } from 'astro';",
+      "",
+      "export async function getStaticPaths() {",
+      "\tconst ${1:docs} = await getCollection('${2:docs}');",
+      "\treturn ${1:docs}.map(entry => ({",
+      "\t\tparams: { slug: entry.slug },",
+      "\t\tprops: { entry }",
+      "\t}));",
+      "}",
+      "",
+      "type Props = InferGetStaticPropsType<typeof getStaticPaths>;",
+      "const { entry } = Astro.props;",
+      "const { Content } = await entry.render();",
+      "---",
+      "",
+      "<h1>{entry.data.title}</h1>",
+      "<Content />"
+    ],
+    "description": "Content Collections Page with getStaticPaths"
+  },
+
+  // Map Expression
+  "Map Expression": {
+    "prefix": "a-map",
+    "body": ["{${1:items}.map((${2:item}) => (", "\t$0", "))}"],
+    "description": "Map expression"
+  },
+
+  // Ternary Expression
+  "Ternary Expression": {
+    "prefix": "a-ternary",
+    "body": ["{${1:condition} ? $2 : $3}"],
+    "description": "Ternary expression"
   }
 }
