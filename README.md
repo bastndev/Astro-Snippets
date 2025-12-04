@@ -9,85 +9,57 @@
 
 </br>
 
+## 🚀 Main Snippets
+
+| 🧩 Snippet               | 🆎 Prefix                  | ⚡ Quick Shortcut |
+| ------------------------ | -------------------------- | ----------------- |
+| Main Page                | `a-main`                   | `amain`           |
+| Layout Component         | `a-layout`                 | `al`              |
+| Import Layout            | `a-import-layout`          | `ail`             |
+| Import Layout Tailwind   | `a-import-layout-tailwind` | `ailt`            |
+| Page with getStaticPaths | `a-page-gsp`               | `apgsp`           |
+| Content Collections Page | `a-page-collection`        | `apc`             |
+
 ## 🚀 Basic Snippets
 
-| 🧩 Snippet                   | 🆎 Prefix            | ⚡ Quick Shortcut |
-| ---------------------------- | -------------------- | ----------------- |
-| Astro Base Component         | `a-base`             | `ab`              |
-| Astro Component with Client  | `a-cbase`            | `abc`             |
-| Typed Astro Component        | `a-component`        | `acomp`           |
-| Component with Client Script | `a-component-client` | `accl`            |
-| Fragment Set HTML            | `a-frag-html`        | `afh`             |
-| Fragment Named Slot          | `a-frag-slot`        | `afs`             |
-
-## 🎯 Layouts and Pages
-
-| 🧩 Snippet        | 🆎 Prefix        | ⚡ Quick Shortcut |
-| ----------------- | ---------------- | ----------------- |
-| Full HTML Layout  | `a-layout-full`  | `alf`             |
-| Layout Component  | `a-layout`       | `al`              |
-| Pre-rendered Page | `a-prerender`    | `apr`             |
-| Dynamic Page      | `a-dynamic-page` | `adp`             |
-| Static Paths      | `a-static-paths` | `asp`             |
-
-## 📝 Content Collections
-
-| 🧩 Snippet              | 🆎 Prefix              | ⚡ Quick Shortcut |
-| ----------------------- | ---------------------- | ----------------- |
-| Content Collection Page | `a-content-collection` | `acc`             |
-| Collection Schema       | `a-collection-schema`  | `acs`             |
+| 🧩 Snippet          | 🆎 Prefix         | ⚡ Quick Shortcut |
+| ------------------- | ----------------- | ----------------- |
+| Astro Component     | `a-component`     | `acomp`           |
+| Get Static Paths    | `a-gsp`           | `agsp`            |
+| Astro Glob          | `a-glob`          | `aglob`           |
+| Get Collection      | `a-collection`    | `acoll`           |
+| Astro Named Slot    | `a-slot-named`    | `asn`             |
+| Astro Style         | `a-style`         | `astyle`          |
+| Astro Script        | `a-script`        | `ascript`         |
+| Style & Script      | `a-style-script`  | `ass`             |
+| Fragment Named Slot | `a-fragment-slot` | `afs`             |
 
 ## 🔀 Expressions and Logic
 
-| 🧩 Snippet            | 🆎 Prefix       | ⚡ Quick Shortcut |
-| --------------------- | --------------- | ----------------- |
-| Map Expression        | `a-map`         | `amp`             |
-| Map with Block        | `a-map-block`   | `amb`             |
-| Conditional Rendering | `a-conditional` | `acond`           |
-| Conditional Block     | `a-if`          | `aif`             |
-| IIFE Expression       | `a-iife`        | `aiife`           |
-| Generator Expression  | `a-iige`        | `aig`             |
-
-## 🎪 Slots and Advanced Components
-
-| 🧩 Snippet | 🆎 Prefix | ⚡ Quick Shortcut |
-| ---------- | --------- | ----------------- |
-| Named Slot | `a-slot`  | `asl`             |
-
-## 🌐 API and Routes
-
-| 🧩 Snippet     | 🆎 Prefix      | ⚡ Quick Shortcut |
-| -------------- | -------------- | ----------------- |
-| API Route GET  | `a-api`        | `aapi`            |
-| API Route POST | `a-api-post`   | `apost`           |
-| Middleware     | `a-middleware` | `amw`             |
+| 🧩 Snippet         | 🆎 Prefix   | ⚡ Quick Shortcut |
+| ------------------ | ----------- | ----------------- |
+| Map Expression     | `a-map`     | `amap`            |
+| Ternary Expression | `a-ternary` | `aternary`        |
 
 ## 🖼️ Images and Assets
 
-| 🧩 Snippet        | 🆎 Prefix   | ⚡ Quick Shortcut |
-| ----------------- | ----------- | ----------------- |
-| Image Component   | `a-image`   | `aimg`            |
-| Picture Component | `a-picture` | `apic`            |
+| 🧩 Snippet         | 🆎 Prefix | ⚡ Quick Shortcut |
+| ------------------ | --------- | ----------------- |
+| Astro Image Import | `a-img`   | `aimg`            |
+| Astro Image Tag    | `a-image` | `aimage`          |
 
-## ✨ Transitions and Effects
+## 🎨 Styles
 
-| 🧩 Snippet       | 🆎 Prefix           | ⚡ Quick Shortcut |
-| ---------------- | ------------------- | ----------------- |
-| View Transitions | `a-transitions`     | `atrans`          |
-| Transition Name  | `a-transition-name` | `atn`             |
-
-## 🎨 SEO and Head
-
-| 🧩 Snippet     | 🆎 Prefix | ⚡ Quick Shortcut |
-| -------------- | --------- | ----------------- |
-| Head Component | `a-head`  | `ahead`           |
+| 🧩 Snippet | 🆎 Prefix      | ⚡ Quick Shortcut |
+| ---------- | -------------- | ----------------- |
+| Global CSS | `a-global-css` | `agcss`           |
 
 </br>
 
 ### 🚀 How to Use
 
-1. Open a `.tsx` or `.jsx` file.
-2. Type any **Quick Shortcut** (e.g., `lv` for View).
+1. Open a `.astro` or `.css` file.
+2. Type any **Quick Shortcut** or **Prefix** (e.g., `al` for Layout or `agcss` for Global CSS).
 3. Press `Tab` or `Enter` to expand the snippet.
 
 <details>
@@ -95,54 +67,52 @@
 
 ### 🎯 **Basic Components**
 
-- **`a-base`**: Basic scaffold for any Astro component
 - **`a-component`**: Component with TypeScript and prop interfaces
-- **`a-component-client`**: Component with client-side script
+- **`a-gsp`**: Static route generation with `getStaticPaths`
+- **`a-collection`**: Get content collection with Astro Content Collections
 
 ### 🏗️ **Layouts and Structures**
 
-- **`a-layout-full`**: Full layout with HTML5, meta tags, and slots
-- **`a-prerender`**: Page with static prerendering
-- **`a-static-paths`**: Static route generation with `getStaticPaths`
+- **`a-layout`**: Full layout component with SEO and dark mode support
+- **`a-import-layout`**: Import layout component with basic structure
+- **`a-import-layout-tailwind`**: Import layout with Tailwind CSS classes
+- **`a-main`**: Complete main page with layout, styles, and scripts
 
-### 🗂️ **Content Collections**
+### 🎨 **Styles**
 
-- **`a-content-collection`**: Dynamic page for content collections
-- **`a-collection-schema`**: Schema definition with Zod
+- **`a-global-css`**: Global CSS with CSS variables, dark mode, and Tailwind import
+- **`a-style`**: Astro style tag
+- **`a-style-script`**: Combined style and script tags with markers
 
 ### 🔄 **Dynamic Rendering**
 
 - **`a-map`**: List rendering with `.map()`
-- **`a-conditional`**: Conditional rendering with ternary operator
-- **`a-if`**: Conditional rendering with blocks
+- **`a-ternary`**: Conditional rendering with ternary operator
 
-### 🌐 **API and Backend**
+### 🖼️ **Images**
 
-- **`a-api`**: Basic GET endpoint
-- **`a-api-post`**: POST endpoint for forms
-- **`a-middleware`**: Middleware function to intercept requests
+- **`a-img`**: Import Astro Image component
+- **`a-image`**: Optimized image tag with width and height
 
-### 🎨 **User Experience**
+### 📝 **Content Collections**
 
-- **`a-transitions`**: Smooth transitions between pages
-- **`a-image`**: Optimized images with the native component
-- **`a-head`**: Optimized meta tags for SEO
+- **`a-page-collection`**: Dynamic page for content collections with rendering
 
 ---
 
 ## 🚀 **Quick Start**
 
-1. **Basic Component**: Type `ab` + Tab to create a base component
-2. **Full Layout**: Type `alf` + Tab for a complete HTML layout
-3. **API Endpoint**: Type `aapi` + Tab to create an API route
-4. **Content Collection**: Type `acc` + Tab for a content page
+1. **Basic Component**: Type `a-component` + Tab to create a component with props
+2. **Full Layout**: Type `a-layout` + Tab for a complete layout with SEO
+3. **Main Page**: Type `a-main` + Tab for a complete page structure
+4. **Global Styles**: Type `a-global-css` + Tab for global CSS with dark mode
 
 ## 💡 **Pro Tips**
 
 - **Always use TypeScript**: Snippets automatically include prop interfaces
-- **Leverage SSG**: Use `a-prerender` for static pages
+- **Dark Mode Ready**: Use `a-global-css` for automatic dark mode support
 - **Optimize Images**: Use `a-image` instead of simple `<img>` tags
-- **SEO First**: Include `a-head` in your layouts
+- **Content Collections**: Use `a-collection` for type-safe content management
 
 </details>
 
@@ -172,24 +142,30 @@ ext install bastndev.astro-js-snippets
 
 ## Contributors
 
-If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Astro-Snippets/blob/main/CONTRIBUTING.md) .
+If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynx-Snippets/blob/main/CONTRIBUTING.md) .
 
-| [![bastndev](https://github.com/bastndev.png?size=100)](https://www.bastndev.com) |
-| :-------------------------------------------------------------------------------: |
-|                 **[Gohit Bastian](https://github.com/bastndev)**                  |
+| ![bastndev](https://github.com/gohitx.png?size=100) |
+| :-------------------------------------------------: |
+|          **[Gohit X](https://gohit.xyz)**           |
+|               _Creator & Maintainer_                |
 
 ## About Me
 
-- [🐦 X](https://twitter.com/bastndev) - For questions and discussions.
-- 🔴 [Youtube](https://www.youtube.com/@bastndev?sub_confirmation=1) - Code, Software and development insights.
-- 💼 [Linkedin](https://www.linkedin.com/in/bastndev) - Professional networking and career updates.
+- [🐦 X](https://twitter.com/gohitx) - For questions and discussions.
+- 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - Code, Software and development insights.
+- 💼 [Linkedin](https://www.linkedin.com/in/gohitx) - Professional networking and career updates.
 
-</br>
+<br>
 
-| Icon                                                                                                                                                                                                                                     | Name                                                     | Description                                                                                                                                                                                        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Lynx Theme Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-theme/0.1.2/1744898058774/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme)   | [Lynx Theme Pro](https://github.com/bastndev/Lynx-Theme) | A professional extension with six available themes: Dark, Light, Night, Ghibli, Coffee, and Kiro—with integrated icons. Each theme is optimized to offer a more pleasant visual experience.        |
-| [![Bracket Lynx](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/bracket-lynx/0.2.0/1748219628473/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.bracket-lynx) | [Bracket Lynx](https://github.com/bastndev/Bracket-Lynx) | Enhances the development experience by displaying a label next to each closing parenthesis, indicating the name of the corresponding block or function, along with the start and end line numbers. |
+| Icon                                                                                                                                                                                                                                     | Name                                                           | Description                                                                                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Lynx Theme Pro](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/lynx-theme/0.1.2/1744898058774/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-theme)   | [Lynx Theme Pro](https://github.com/bastndev/Lynx-Theme)       | A professional extension with six available themes: Dark, Light, Night, Ghibli, Coffee, and Kiro—with integrated icons. Each theme is optimized to offer a more pleasant visual experience.        |
+| [![Bracket Lynx](https://bastndev.gallerycdn.vsassets.io/extensions/bastndev/bracket-lynx/0.2.0/1748219628473/Microsoft.VisualStudio.Services.Icons.Default)](https://marketplace.visualstudio.com/items?itemName=bastndev.bracket-lynx) | [Bracket Lynx](https://github.com/bastndev/Bracket-Lynx)       | Enhances the development experience by displaying a label next to each closing parenthesis, indicating the name of the corresponding block or function, along with the start and end line numbers. |
 | [![Lynx Keymap Pro](https://raw.githubusercontent.com/bastndev/Lynx-Keymap-Pro/refs/heads/main/assets/images/logo.png)](https://marketplace.visualstudio.com/items?itemName=bastndev.lynx-keymap)                                        | [Lynx Keymap Pro](https://github.com/bastndev/Lynx-Keymap-Pro) | Standardizes keyboard shortcuts across all code editors, allowing you to use key combinations to access any functionality. It improves workflow and development experience.                        |
 
-**Ready! 🚀 Your snippets are configured. If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Astro-Snippets/issues).**
+<div align="center">
+
+**Ready! 🚀 Your (Snippets Astro) are configured.**  
+ _If you find any bugs or have feedback, you can [open an issue](https://github.com/bastndev/Lynx-Snippets/issues)._
+
+</div>
