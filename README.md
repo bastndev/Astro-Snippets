@@ -1,9 +1,9 @@
 ![Use Extension](https://raw.githubusercontent.com/bastndev/Astro-Snippets/refs/heads/main/assets/images/banner.jpg)
 
 <p align="center">
-    <img src="https://vsmarketplacebadges.dev/version-short/bastndev.astro-js-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=VERSION" alt="Version">&nbsp;
-    <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.astro-js-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=Rating" alt="Rating">&nbsp;
-    <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.astro-js-snippets.jpg?style=for-the-badge&colorA=ff582b&colorB=EEEEEE&color=18191e&label=Downloads" alt="Downloads">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/version-short/bastndev.astro-js-snippets.jpg?style=for-the-badge&colorA=ff2b7a&colorB=EEEEEE&color=18191e&label=VERSION" alt="Version">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/rating-short/bastndev.astro-js-snippets.jpg?style=for-the-badge&colorA=ff2b7a&colorB=EEEEEE&color=18191e&label=Rating" alt="Rating">&nbsp;
+    <img src="https://vsmarketplacebadges.dev/downloads-short/bastndev.astro-js-snippets.jpg?style=for-the-badge&colorA=ff2b7a&colorB=EEEEEE&color=18191e&label=Downloads" alt="Downloads">&nbsp;
     <a href="https://github.com/bastndev/Astro-Snippets.tsx"><img src="https://raw.githubusercontent.com/bastndev/Astro-Snippets/main/assets/images/star.png" width="26.6px" alt="Github Star ⭐️"></a>
 </p>
 
@@ -40,13 +40,9 @@
 | ------------------ | ----------- | ----------------- |
 | Map Expression     | `a-map`     | `amap`            |
 | Ternary Expression | `a-ternary` | `aternary`        |
-
-## 🖼️ Images and Assets
-
-| 🧩 Snippet         | 🆎 Prefix | ⚡ Quick Shortcut |
-| ------------------ | --------- | ----------------- |
-| Astro Image Import | `a-img`   | `aimg`            |
-| Astro Image Tag    | `a-image` | `aimage`          |
+| -                  | -           | -                 |
+| Astro Image Import | `a-img`     | `aimg`            |
+| Astro Image Tag    | `a-image`   | `aimage`          |
 
 ## 🎨 Styles
 
@@ -121,11 +117,13 @@
 This extension includes several commands to help you manage your snippets efficiently. You can access these commands by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS).
 
 ### Main Commands:
+
 - 🛠️ **Astrojs: `Manage Snippets`** - Central hub to edit, delete, refresh, reset, and create snippets
 - ✍️ **Astrojs: `Create New Snippet`** - Create a new custom snippet file for any language
 - 🔄 **Astrojs: `Refresh Snippets`** - Reload snippets to reflect recent changes
 
 ### Additional Commands:
+
 - 📄 **Astrojs: `Open Snippet File`** - Open a snippet file for editing
 - ♻️ **Astrojs: `Reset Snippet to Original`** - Restore default snippet from extension
 - 🗑️ **Astrojs: `Delete Custom Snippet`** - Remove a custom snippet file
@@ -146,16 +144,12 @@ Paste the following command and press `Enter`:
 ext install bastndev.astro-js-snippets
 ```
 
-## Contributors
-
-If you want to contribute, check the guidelines: [[>_ᅠ]](https://github.com/bastndev/Lynx-Snippets/blob/main/CONTRIBUTING.md) .
+## About Me
 
 | ![bastndev](https://github.com/gohitx.png?size=100) |
 | :-------------------------------------------------: |
 |          **[Gohit X](https://gohit.xyz)**           |
 |               _Creator & Maintainer_                |
-
-## About Me
 
 - [🐦 X](https://twitter.com/gohitx) - For questions and discussions.
 - 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - Code, Software and development insights.
