@@ -2,7 +2,7 @@
   "name": "astro-js-snippets",
   "displayName": "Snippets Astro", 
   "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "publisher": "bastndev",
   "preview": true,
   "license": "MIT",
@@ -42,8 +42,8 @@
   },
   "author": {
     "name": "Gohit Bastian", 
-    "email": "dev@bastndev.com",
-    "url": "https://www.bastndev.com"
+    "email": "hello@gohit.xyz",
+    "url": "https://www.gohit.xyz/me"
   },
   "sponsor": {
     "url": "https://github.com/sponsors/bastndev"
@@ -67,6 +67,21 @@
       {
         "command": "astro-snippets.refreshSnippets", 
         "title": "Refresh Snippets",
+        "category": "Astrojs"
+      },
+      {
+        "command": "astro-snippets.openSnippet",
+        "title": "Open Snippet File",
+        "category": "Astrojs"
+      },
+      {
+        "command": "astro-snippets.resetSnippet",
+        "title": "Reset Snippet to Original",
+        "category": "Astrojs"
+      },
+      {
+        "command": "astro-snippets.deleteSnippet",
+        "title": "Delete Custom Snippet",
         "category": "Astrojs"
       }
     ],
