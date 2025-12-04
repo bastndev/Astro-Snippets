@@ -50,6 +50,7 @@
   },
   "activationEvents": [
     "onLanguage:astro",
+    "onLanguage:css",
     "onLanguage:vue", 
     "onLanguage:svelte",
     "onLanguage:javascript",
@@ -120,6 +121,10 @@
       {
         "language": "html", 
         "path": "./snippets/alpinejs.code-snippets"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/css.code-snippets"
       }
     ]
   }

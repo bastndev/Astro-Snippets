@@ -1,0 +1,44 @@
+{
+  // Global css
+  "Global CSS": {
+    "prefix": "a-global-css",
+    "body": [
+      "@import 'tailwindcss';",
+      "",
+      ":root {",
+      "  --bg: #f6f6f6;",
+      "  --text: black;",
+      "  --transition: 0.3s ease-in-out;",
+      "}",
+      "",
+      "html.dark {",
+      "  --bg: #000000;",
+      "  --text: white;",
+      "}",
+      "",
+      "/* ==================== ",
+      "   Global & BASE STYLES ",
+      "   ==================== */",
+      "html {",
+      "  margin: 0;",
+      "  padding: 0;",
+      "  height: 100%;",
+      "}",
+      "",
+      "body {",
+      "  margin: 0;",
+      "  padding: 0;",
+      "  width: 100%;",
+      "  min-height: 100vh;",
+      "  background-color: var(--bg);",
+      "  color: var(--text);",
+      "  transition: background-color var(--transition), color var(--transition);",
+      "}",
+      "",
+      "/* ==================== ",
+      "    Scrollbar & Cursor ",
+      "   ==================== */"
+    ],
+    "description": "Global CSS"
+  }
+}
