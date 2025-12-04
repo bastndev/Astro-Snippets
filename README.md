@@ -120,9 +120,15 @@
 
 This extension includes several commands to help you manage your snippets efficiently. You can access these commands by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS).
 
-- 🛠️ **Astro: `Manage Snippets:`** Edit • Delete • Refresh • (Reset Snippet) & Create new snippet.
-- 🔄 **Astro: `Refresh Snippets:`** Reloads your snippets to reflect recent changes — yaa!!"
-- ✍️ **Astro: `Create New Snippet:`** Starts the process to create a new custom snippet.
+### Main Commands:
+- 🛠️ **Astrojs: `Manage Snippets`** - Central hub to edit, delete, refresh, reset, and create snippets
+- ✍️ **Astrojs: `Create New Snippet`** - Create a new custom snippet file for any language
+- 🔄 **Astrojs: `Refresh Snippets`** - Reload snippets to reflect recent changes
+
+### Additional Commands:
+- 📄 **Astrojs: `Open Snippet File`** - Open a snippet file for editing
+- ♻️ **Astrojs: `Reset Snippet to Original`** - Restore default snippet from extension
+- 🗑️ **Astrojs: `Delete Custom Snippet`** - Remove a custom snippet file
 
 </br>
 

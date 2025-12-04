@@ -12,13 +12,17 @@ A curated collection of snippets tailored for Astro projects, designed to enhanc
 - **Modern Development**: Aligned with Astro's best practices
 - **Experimental Features**: Beta snippets for testing and community feedback
 
-Discover more extensions at [bastndev.com/extensions](https://bastndev.com/extensions)
+Discover more extensions at [extensions](https://gohit.xyz/)
 
 ---
 
 ## Changelog
 
 Following VS Code best practices, Astro Snippets uses semantic versioning for all releases.
+
+## [0.1.0] - 2025-12-04
+
+- Update @gohit
 
 ## [0.0.1] - 2025-09-01
 
