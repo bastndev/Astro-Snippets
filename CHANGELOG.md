@@ -12,7 +12,7 @@ A curated collection of snippets tailored for Astro projects, designed to enhanc
 - **Modern Development**: Aligned with Astro's best practices
 - **Experimental Features**: Beta snippets for testing and community feedback
 
-Discover more extensions at [extensions](https://gohit.xyz/)
+Discover more extensions [here](https://gohit.xyz/)
 
 ---
 
