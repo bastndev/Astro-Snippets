@@ -146,10 +146,10 @@ ext install bastndev.astro-js-snippets
 
 ## About Me
 
-| ![bastndev](https://github.com/gohitx.png?size=100) |
-| :-------------------------------------------------: |
-|          **[Gohit X](https://gohit.xyz)**           |
-|               _Creator & Maintainer_                |
+| [![gohitx](https://github.com/gohitx.png?size=100)](https://gohit.xyz/me) |
+| :--------------------------------------------------------------------: |
+|                    **[Gohit X](https://gohit.xyz)**                    |
+|                         _Creator & Maintainer_                         |
 
 - [🐦 X](https://twitter.com/gohitx) - For questions and discussions.
 - 🔴 [Youtube](https://www.youtube.com/@gohitx?sub_confirmation=1) - Code, Software and development insights.
