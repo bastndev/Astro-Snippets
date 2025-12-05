@@ -22,7 +22,7 @@ Following VS Code best practices, Astro Snippets uses semantic versioning for al
 
 ## [0.1.1] - 2025-12-04
 
-- Update @gohit
+- Update @gohitx
 
 ## [0.0.1] - 2025-09-01
 
