@@ -2,7 +2,7 @@
   "name": "astro-js-snippets",
   "displayName": "Snippets Astro", 
   "description": "Available now: VSCode • Cursor • Windsurf • Trae.ai • Kiro & (Firebase Studio)... 雨",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "bastndev",
   "preview": true,
   "license": "MIT",
